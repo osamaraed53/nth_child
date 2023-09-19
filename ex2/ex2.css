@@ -1,0 +1,14 @@
+
+div > div {
+    height: 50px;
+    width:100px;
+    float: left;
+    margin: 50px ;
+    background-color: aqua;
+    text-align:center;
+    
+}
+
+div > div:nth-child(2n){
+    display:none;
+}
